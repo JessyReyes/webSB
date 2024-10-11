@@ -1,0 +1,152 @@
+﻿
+.montserrat-<uniquifier > {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.dancing-script-<uniquifier > {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+h1{
+    font-size:40px;
+}
+
+.fondo-tit .nomb {
+    color: #ffffff;
+}
+
+.profesion{
+    color:#ffffff;
+}
+
+.fondo-tit {
+    /*background-color: #ef6c6a;*/
+    background-color: #212121;
+    color: #ffffff;
+    padding: 60px 40px;
+}
+
+.foto-personal img {
+    width: 200px;
+    height: auto;
+    border-radius: 300px;
+    border: 6px solid #ffffff;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
+
+.f-perfil {
+    background-image: url('../assets/fondo.png');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: ruby-text;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+h2 {
+    font-size: 28px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+
+    .tit-cv{
+        background-color: #eaeaea;
+        border-radius: 5px;
+        padding: 0px 14px;
+    }
+
+h3 {
+    font-size: 22px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+}
+p {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.menu-links a{
+    padding:0px 20px;
+    color:#333333;
+    font-size:14px;
+}
+
+.menu-links {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav{
+    height:auto;
+}
+
+nav img{
+    margin: 20px 50px;
+    width: 240px;
+}
+a {
+    text-decoration: none;
+    font-family:Montserrat;
+    font-weight:700;
+}
+
+    a:hover {
+        color: #5b24c9;
+        border-bottom: 3px solid #5b24c9;
+    }
+
+.none-border {
+    border-bottom: none!important;
+}
+
+.p50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fono{
+    color:#333333;
+    margin-left:15px;
+}
+
+.p-lat {
+    padding: 0 20px;
+}
+
+.landing-page {
+    background-image: url('../assets/uxui.jpg');
+    height: 300px;
+    background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
